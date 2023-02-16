@@ -13,13 +13,7 @@
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-light,1 ),
-        rgba($color-primary-dark, 1)),
-    url(../img/hero-small.jpg);
-    // background-image: linear-gradient(
-    //     to right bottom,
-    //     rgba($color-primary-light, 0.8),
-    //     rgba($color-primary-dark, 0.8)),
-    // url(../tech/img-3.jpg);
+        rgba($color-primary-dark, 1));
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -10rem;
@@ -55,8 +49,6 @@
 
 .section-book {
     padding: 15rem 0;
-    // background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
-    // background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
     background: $color-grey-dark-3;
 
     @include respond(tab-port) {
@@ -69,7 +61,7 @@
                                     rgba($color-white, .9) 0%,
                                     rgba($color-white, .9) 50%,
                                     transparent 50%) ,
-                            url(../tech/img-2.jpg);
+                            url(../images/img-2.jpg);
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
@@ -79,7 +71,7 @@
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 65%,
         transparent 65%) ,
-url(../tech/img-2.jpg);
+        url(../images/img-2.jpg);
         background-size: cover;
     }
 
@@ -87,7 +79,7 @@ url(../tech/img-2.jpg);
         background-image: linear-gradient(to right, 
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 100%),
-url(../tech/img-2.jpg);
+        url(../images/img-2.jpg);
     }
 
     &__form {
