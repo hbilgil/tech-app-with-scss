@@ -3,20 +3,11 @@
     background-image: linear-gradient(
         to right bottom,
         rgba($color-primary-dark,1 ),
-        rgba($color-primary-light, 1)),
-    url(../img/hero-small.jpg);
+        rgba($color-primary-light, 1));
     background-size: cover;
     background-position: top;
     position: relative;
     height: 85vh;
-
-
-    // background-image: radial-gradient( circle 610px at 5.2% 51.6%,  #050872 0%, rgba(7,3,53,1) 97.5% ),
-    // url(../img/hero-small.jpg);
-    // background-size: cover;
-    // background-position: top;
-    // position: relative;
-    
 
     @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
@@ -30,8 +21,7 @@
         background-image: linear-gradient(
             to right bottom,
             rgba($color-primary-light, 0.8),
-            rgba($color-primary-dark, 0.8)),
-        url(../img/hero.jpg);
+            rgba($color-primary-dark, 0.8));
     }
 
     @include respond(phone) {
